@@ -155,7 +155,7 @@ st.plotly_chart(fig_miss, use_container_width=True)
 # --------------------------------------------------
 st.markdown("---")
 
-_, btn_col, _ = st.columns([2, 1, 2])
+_, btn_col, _ = st.columns([1, 1, 1])
 
 with btn_col:
     if st.button("Proceed to Data Cleaning →", type="primary", use_container_width=True):

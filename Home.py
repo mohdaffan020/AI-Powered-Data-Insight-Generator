@@ -193,7 +193,7 @@ if "data" in st.session_state and not st.session_state["data"].empty:
 
     st.success(f"✅ Active Dataset: **{file_label}**")
 
-    m1, m2, m3 = st.columns(3)
+    m1, m2, m3 = st.columns([2,1,1])
     m1.metric("Active File", file_label)
     m2.metric("Total Rows", f"{active_df.shape[0]:,}")
     m3.metric("Total Columns", f"{active_df.shape[1]:,}")

@@ -203,7 +203,7 @@ if "data" in st.session_state and not st.session_state["data"].empty:
 
     profiling_path = find_page_path("profil")
 
-    _, nav_col, _ = st.columns([2, 1, 2])
+    _, nav_col, _ = st.columns([1, 1, 1])
     with nav_col:
         if profiling_path:
             st.page_link(

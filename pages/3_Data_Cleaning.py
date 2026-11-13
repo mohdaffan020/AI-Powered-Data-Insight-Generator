@@ -369,7 +369,7 @@ with st.expander("🔄 View Updated Column Data Types"):
 
 st.markdown("---")
 
-_, btn_col, _ = st.columns([2, 1, 2])
+_, btn_col, _ = st.columns([1, 1, 1])
 
 with btn_col:
     if st.button("Proceed to EDA →", type="primary", use_container_width=True):

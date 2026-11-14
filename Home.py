@@ -227,7 +227,7 @@ FEATURES = [
     ("🔎", "Data Profiling", "Understand rows, columns, missing values, duplicates and basic data types."),
     ("🧹", "Data Cleaning", "Handle common data problems such as missing values, duplicates and formatting issues."),
     ("📊", "Exploratory Data Analysis", " Identify patterns and visualize your dataset."),
-    ("💡", "Insights", "Convert analytical results into simple and understandable key findings."),
+    ("💡", "Insights", "Derive simple and understandable key findings."),
     ("📄", "Simple Summary", "Review important takeaways and data-driven conclusions."),
 ]
 

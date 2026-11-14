@@ -86,6 +86,17 @@ st.markdown(
         text-align: center;
         font-weight: bold;
     }
+    .feature-card {
+        background-color: #16181f;
+        border: 1px solid #2a2d37;
+        border-radius: 12px;
+        padding: 24px;
+        min-height: 230px; /* Forces all boxes to match the tallest card */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 16px;
+    }
     /* Red rectangle clickable layout for st.page_link */
     div[data-testid="stPageLink"] a,
     a[data-testid="stPageLink-NavLink"] {

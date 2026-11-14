@@ -97,11 +97,11 @@ st.markdown(
         justify-content: flex-start;
     }
 
-        /* Equal height only when side-by-side on desktop/tablet */
-        @media (min-width: 768px) {
-            .feature-card {
-                min-height: 210px;
-            }
+    /* Equal height only when side-by-side on desktop/tablet */
+    @media (min-width: 768px) {
+        .feature-card {
+            min-height: 210px;
+        }
     }
     /* Red rectangle clickable layout for st.page_link */
     div[data-testid="stPageLink"] a,

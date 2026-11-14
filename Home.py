@@ -227,8 +227,8 @@ FEATURES = [
     ("🔎", "Data Profiling", "Understand rows, columns, missing values, duplicates and basic data types."),
     ("🧹", "Data Cleaning", "Handle missing values, duplicates and formatting issues."),
     ("📊", "Exploratory Data Analysis", " Perform Visualization and Identify patterns."),
-    ("💡", "Insights", "Convert analytical results into simple and understandable key findings."),
-    ("📄", "Simple Summary", "Review important takeaways and data-driven conclusions."),
+    ("💡", "Insights", "Convert analytical results into simple and understandable key findings.\n"),
+    ("📄", "Simple Summary", "Review important takeaways and data-driven conclusions.\n\n"),
 ]
 
 for row_start in range(0, len(FEATURES), 3):

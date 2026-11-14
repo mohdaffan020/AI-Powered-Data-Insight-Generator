@@ -105,7 +105,7 @@ with dt_col1:
 with dt_col2:
     st.markdown("**🔤 Column → Text (String)**")
     cols_to_text = st.multiselect(
-        "Convert to Text / Categorical String",
+        "Convert to Text / String",
         options=[c for c in available_cols if c not in cols_to_numeric],
         help="Useful for numeric codes like SeniorCitizen (0/1) or ZIP codes."
     )
